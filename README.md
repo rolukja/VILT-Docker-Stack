@@ -51,7 +51,6 @@ To run this project, you need to have **Docker** and **Docker Compose** installe
    ```bash
     ./vendor/bin/sail up
     ```
-
 4. Add Migrate to database:
    ```bash
     ./vendor/bin/sail artisan migrate
