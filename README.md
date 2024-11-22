@@ -1,4 +1,6 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank">
+<img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a>
+</p>
 
 <p align="center">
 <a href="https://github.com/rolukja/vilt-docker-stack/actions"><img src="https://github.com/rolukja/vilt-docker-stack/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -42,16 +44,16 @@ To run this project, you need to have **Docker** and **Docker Compose** installe
    ```bash
    git clone https://github.com/rolukja/vilt-docker-stack.git
    cd vilt-docker-stack
+   ```
+2. Rename .env.example to .env
 
-
-set up you .env from .env.example 
-
-
-Init Docker with:
+3. Init Docker:
    ```bash
     ./vendor/bin/sail up
+    ```
 
-Add Migrate:
+4. Add Migrate to database:
    ```bash
     ./vendor/bin/sail artisan migrate
+    ```
     
