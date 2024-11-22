@@ -43,12 +43,12 @@ To run this project, you need to have **Docker** and **Docker Compose** installe
 
 4. Start Docker
    ```bash
-   ./vendor/bin/sail/ up -d
+   ./vendor/bin/sail up -d
 
 5. Install NPM
    ```bash
-   ./vendor/bin/sail/ npm install
+   ./vendor/bin/sail npm install
 
 6. Start Vite
    ```bash
-   ./vendor/bin/sail/ npm run dev
+   ./vendor/bin/sail npm run dev
