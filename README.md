@@ -44,4 +44,14 @@ To run this project, you need to have **Docker** and **Docker Compose** installe
    cd vilt-docker-stack
 
 
-TODO
+set up you .env from .env.example 
+
+
+Init Docker with:
+   ```bash
+    ./vendor/bin/sail up
+
+Add Migrate:
+   ```bash
+    ./vendor/bin/sail artisan migrate
+    
