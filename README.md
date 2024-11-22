@@ -1,13 +1,5 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# VILT Docker Stack
 
-<p align="center">
-<a href="https://github.com/rolukja/vilt-docker-stack/actions"><img src="https://github.com/rolukja/vilt-docker-stack/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://hub.docker.com/r/rolukja/vilt-docker-stack"><img src="https://img.shields.io/docker/pulls/rolukja/vilt-docker-stack" alt="Docker Pulls"></a>
-<a href="https://github.com/rolukja/vilt-docker-stack"><img src="https://img.shields.io/github/v/release/rolukja/vilt-docker-stack" alt="Latest Release"></a>
-<a href="https://github.com/rolukja/vilt-docker-stack/blob/main/LICENSE"><img src="https://img.shields.io/github/license/rolukja/vilt-docker-stack" alt="License"></a>
-</p>
-
-## About VILT-Docker-Stack
 
 **VILT-Docker-Stack** is a modern web development stack that combines the power of:
 
@@ -42,6 +34,21 @@ To run this project, you need to have **Docker** and **Docker Compose** installe
    ```bash
    git clone https://github.com/rolukja/vilt-docker-stack.git
    cd vilt-docker-stack
+   
+2. Install Packagase
+    ```bash
+   composer install
 
-2. Rename <b>.env.example</b> to <b>.env</b>
+3. Rename <b>.env.example</b> to <b>.env</b>
 
+4. Start Docker
+   ```bash
+   ./vendor/bin/sail/ up -d
+
+5. Install NPM
+   ```bash
+   ./vendor/bin/sail/ npm install
+
+6. Start Vite
+   ```bash
+   ./vendor/bin/sail/ npm run dev
