@@ -43,5 +43,5 @@ To run this project, you need to have **Docker** and **Docker Compose** installe
    git clone https://github.com/rolukja/vilt-docker-stack.git
    cd vilt-docker-stack
 
+2. Rename <b>.env.example</b> to <b>.env</b>
 
-TODO
